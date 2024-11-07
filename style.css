@@ -4,6 +4,8 @@ header{
 h1{
 
     color: rgb(255, 0, 0);
+    padding-left: 90;
+    padding-top: 10px;
 }
 
 body{
@@ -12,9 +14,24 @@ body{
 }
 h2{
    color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 p{
    color: white;
-
+   width: 500px;
+   font-size: 19px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+hr{
+
+  height: 5px;
+   background-color: white;
+}
+
+  section{
+ display: flex;
+ justify-content: space-around;
+align-items: center;
+ }
