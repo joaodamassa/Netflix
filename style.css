@@ -52,7 +52,8 @@ align-items: center;
 
  .filmes{
    display: flex;
-
+   gap: 20px;
+   overflow-x: auto;
  }
 
  .filmes img{
