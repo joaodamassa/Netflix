@@ -35,3 +35,26 @@ hr{
  justify-content: space-around;
 align-items: center;
  }
+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.carrossel-de-filmes{
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.filmes{
+display: flex;
+gap: 30px;
+overflow-x: auto;
+}
+.filmes img{
+width: 400px;
+}
+.filmes img:hover{
+    border: 3px solid red;
+}
+
